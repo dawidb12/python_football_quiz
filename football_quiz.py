@@ -6,11 +6,6 @@ import re
 import random
 
 def natGuess():
-    import requests
-    from bs4 import BeautifulSoup
-    import re
-    import random
-
     rounds = 10
     good_answers = 0
     wrong_answers = 0
